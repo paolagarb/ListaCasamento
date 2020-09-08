@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("fotoCasamento.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    font: black;
+}
+
+#lista {
+    background-color: #7e9fcacc;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+#lista ul {
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+}
+
+ul li {
+    font-size: 18px;
+}
+
+button {
+    background-color: white;
+    color: #6f9eddfa;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: solid 1px #6f9eddfa;
+}
+
+input {
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    border: solid 1px #6f9eddfa;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
